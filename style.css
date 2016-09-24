@@ -113,3 +113,51 @@ body{
   }
 }
 
+/* esto es para la parte 2 */
+/*
+body{
+  font-family: "Droid Sans";
+  font-size: 20vh;
+  text-align: center;
+  left: 0;
+    line-height: 250px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+p{display:none;}
+
+@media (max-width: 500px){
+    .screen-verySmall{display:initial;}
+    .change-with-size{
+        font-size: 60vh;
+        background-color:#ff0000;}
+
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+    .change-with-size{
+      font-size: 50vh;
+        background-color:#ff4000;} 
+    .screen-small{display: initial;}
+} 
+
+@media (min-width: 800px) and (max-width: 1000px){
+    .change-with-size{
+      font-size: 30vh;
+        background-color:#ffbf00;}
+    .screen-mid{display: initial;}
+}
+
+@media (min-width: 1000px){
+    .change-with-size{
+      font-size: 25vh;
+        background-color:#ffff00;}
+    .screen-large{display: initial;}
+}
+
+*/
+
