@@ -1,0 +1,29 @@
+
+/* Esto es el que paso papu */
+
+ @media (min-width: 500px) and  (max-width: 800px) { 
+ .hola{      
+display: none;
+    }   
+.que_paso_papu{
+      text-align: center;
+      background-color: green;
+   }
+.adios{
+display: none;
+    }
+}
+
+/* esto es el Adios */
+ @media (min-width: 800px)  { 
+    .hola{      
+  display: none;  
+    }    
+    .que_paso_papu{      
+display: none; 
+    }
+    .adios{
+      text-align: center;
+      background-color: gold;
+    }
+}

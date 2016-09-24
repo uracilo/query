@@ -1,56 +1,115 @@
- 
- @media screen and (max-width: 500px)  { 
+/* texto centrado */
+.centrado{
+  padding: 50vh;
+}
+
+
+
+ /* Esto es el hola 
+
+ @media (max-width: 500px)  { 
     .hola{
       text-align: center;
-  background-color: blue;
-  height: 50px;
-  margin: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
+      background-color: blue;
     }    
 .que_paso_papu{      
-      display: none;
+display: none;
+visibility: none;
+
     }
 .adios{      
-display: none;     
-    }
-}
-
- @media  screen (max-width: 800px) and  (min-width: 500px) { 
- .hola{      
-display: none;
-    }    
-.que_paso_papu{
-  text-align: center;
-  background-color: red;
-  height: 50px;
-  margin: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-   }
-.adios{
-display: none;
-    }
-}
-
- @media (min-width: 99px)  { 
-    .hola{      
-  display: none;  
-    }    
-    .que_paso_papu{      
 display: none; 
+visibility: none;
+
     }
-    .adios{
+}
+ @media (min-width: 500px)  { 
+    .hola{
+display: none; 
+visibility: none;
+    }    
+.que_paso_papu{      
       text-align: center;
       background-color: gold;
-  height: 50px;
-  margin: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
+    }
+.adios{      
+display: none; 
+visibility: none;
 
     }
+}
+
+ @media (max-width: 800px)  { 
+  .que_paso_papu{      
+display: none; 
+visibility: none;
+
+    }
+    .hola{
+display: none; 
+visibility: none;
+    }    
+
+.adios{      
+      text-align: center;
+      background-color: green;
+    }
+}
+
+
+*/
+h1, .centrado{
+  display: none;
+  margin: 50vh;
+  
+
 
 }
+
+body{
+  background-color: green;
+}
+
+@media (max-width: 1000px) {
+  body{
+    background-color: gold;
+  }
+  #Adios{
+    display: initial;
+
+  }  
+      #hola, #QPP{
+    display: none;
+
+  }
+}
+@media (max-width: 800px) {
+  body{
+    background-color: blue;
+  }
+    #hola, #Adios{
+    display: none;
+
+  }
+    #QPP{
+    display: initial;
+
+  }
+  
+}
+
+@media (max-width: 500px) {
+  body{
+    background-color: pink;
+  }
+  
+      #Adios, #QPP{
+    display: none;
+
+  }
+    #hola{
+    display: initial;
+
+  }
+}
+
